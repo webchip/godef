@@ -14,11 +14,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rogpeppe/godef/go/ast"
-	"github.com/rogpeppe/godef/go/parser"
-	"github.com/rogpeppe/godef/go/printer"
-	"github.com/rogpeppe/godef/go/token"
-	"github.com/rogpeppe/godef/go/types"
+	"github.com/webchip/godef/go/ast"
+	"github.com/webchip/godef/go/parser"
+	"github.com/webchip/godef/go/printer"
+	"github.com/webchip/godef/go/token"
+	"github.com/webchip/godef/go/types"
 )
 
 var readStdin = flag.Bool("i", false, "read file from stdin")

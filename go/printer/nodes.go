@@ -11,8 +11,8 @@ package printer
 import (
 	"bytes"
 
-	"github.com/rogpeppe/godef/go/ast"
-	"github.com/rogpeppe/godef/go/token"
+	"github.com/webchip/godef/go/ast"
+	"github.com/webchip/godef/go/token"
 )
 
 // Other formatting issues:
